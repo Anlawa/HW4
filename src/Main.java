@@ -1,4 +1,3 @@
-import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {task1();}
@@ -17,9 +16,9 @@ public class Main {
         System.out.println();
 //Задание 2
 
-        int day = 5;
-        for (day = 1; day <= 31; day += 7) {
-            System.out.println("Сегодня пятница," + day + " число,пора сдавать отчет");
+        int days = 5;
+        for (days = 1; days <= 31; days += 7) {
+            System.out.println("Сегодня пятница," + days + " число,пора сдавать отчет");
 
         }
         System.out.println();
@@ -31,8 +30,7 @@ public class Main {
 
         for (int year = commetStart; year <= commetEnd; year++) {
             if (year % 79 == 0) {
-                System.out.println(year);
-            }
+                System.out.println(year);}
         }
-        }
+      }
     }
